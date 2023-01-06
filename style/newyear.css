@@ -1,0 +1,85 @@
+/* Global Style */
+* {
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
+}
+
+.btn-primary {
+  color: #005fac;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 20px;
+  border: 0;
+  background: #ffff;
+  max-height: 60px;
+  border-radius: 5px;
+}
+/* header Styles */
+
+.header {
+  background-image: url("../images/banner/banner3.png");
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  margin-bottom: 100px;
+}
+/* banners styles */
+.banner {
+  max-width: 525px;
+  height: 228px;
+  position: absolute;
+  right: 230px;
+  top: 200px;
+}
+.banner-title {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 24px;
+}
+.banner-description {
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+/* Hero Style */
+.hero-container {
+  display: flex;
+  width: 1072px;
+  height: 723.3px;
+  margin-left: 206px;
+  margin-right: 332px;
+  gap: 90px;
+}
+.hero-image img {
+  width: 500px;
+}
+.hero-text {
+  margin-top: 140px;
+  position: relative;
+}
+
+.hero-text-title {
+  color: #151414;
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 24px;
+}
+.hero-text-description {
+  color: #444343;
+  margin-bottom: 16px;
+}
+.hero-text-list
+{
+   position: absolute;
+   left: -40px;
+}
+.hero-text-list li
+{
+    list-style: none;
+    
+}
+.hero-text-list li i{
+    margin-right: 10px;
+    color: rgba(15, 217, 15, 0.721);
+}
