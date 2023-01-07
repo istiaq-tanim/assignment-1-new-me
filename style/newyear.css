@@ -15,6 +15,11 @@
   border-radius: 5px;
 }
 
+.btn-primary:hover
+{
+
+  cursor: pointer;
+}
 .section-title {
   color: #151414;
   font-weight: 700;
@@ -122,17 +127,90 @@
 
 .mindset-section {
   margin: 0 auto;
-  background-image: url("../images/watch.png"),linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+  background-image: url("../images/watch.png"),
+    linear-gradient(90deg, #005fac 0%, rgba(0, 95, 172, 0) 100%);
   border-radius: 8px;
   background-repeat: no-repeat;
   max-width: 1140px;
-  background-blend-mode:soft-light;
+  background-blend-mode: soft-light;
   padding: 59px 0 0 64px;
   background-size: cover;
   height: 300px;
+  overflow: hidden;
 }
 
-.mindset-section .section-title
+.mindset-section .section-title {
+  color: #ffffff;
+}
+
+/* Future Styles */
+.future-section {
+  margin-top: 130px;
+  background: #151414;
+}
+
+.future-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 300px;
+  margin-left: 230px;
+  margin-right: 230px;
+  padding-top: 130px;
+  height: 477px;;
+}
+
+.future-title {
+  font-weight: 700;
+  font-size: 45px;
+  color: #f8f8f8;
+  margin-bottom: 16px;
+}
+.future-description {
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.future img {
+  margin-right: 15px;
+  margin-top: 30px;
+}
+
+.subscribe-title {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+.subscribe input[type="email"]
 {
+  border-radius: 5px;
+  border: 2px solid #ffffff;
+  padding: 15px;
+  width: 100%;
+  background: #151414;
+  margin-bottom: 15px;
+}
+.subscribe input[type="submit"]
+{
+  background: #005fac;
   color: #FFFFFF;
+  padding: 18px;
+  border: 0;
+  font-size: 15px;
+  border-radius: 5px;
+  position: absolute;
+}
+
+.subscribe input[type="email"]:hover
+{
+  background: #ffffff;
+  color: #151414;
+  cursor: pointer;
+
+}
+
+.subscribe:hover input[type="submit"]
+{
+  cursor: pointer;
+  padding: 25px;
+ 
 }
