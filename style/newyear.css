@@ -14,6 +14,18 @@
   max-height: 60px;
   border-radius: 5px;
 }
+
+.section-title {
+  color: #151414;
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 24px;
+}
+
+.section-description {
+  color: #444343;
+  margin-bottom: 16px;
+}
 /* header Styles */
 
 .header {
@@ -30,6 +42,7 @@
   position: absolute;
   right: 230px;
   top: 200px;
+  text-align: right;
 }
 .banner-title {
   color: #ffffff;
@@ -58,28 +71,68 @@
   margin-top: 140px;
   position: relative;
 }
+.hero-text-list {
+  position: absolute;
+  left: -40px;
+}
+.hero-text-list li {
+  list-style: none;
+}
+.hero-text-list li i {
+  margin-right: 10px;
+  color: rgba(15, 217, 15, 0.721);
+}
 
-.hero-text-title {
-  color: #151414;
+/* Plan Styles */
+.plan .section-title {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.plan-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1140px;
+  margin-left: 230px;
+  margin-top: 50px;
+  margin-right: 230px;
+  margin-bottom: 130px;
+}
+
+.plan-container img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.myplan-title {
   font-weight: 700;
-  font-size: 40px;
-  margin-bottom: 24px;
+  font-size: 30px;
+  color: #151414;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
-.hero-text-description {
-  color: #444343;
-  margin-bottom: 16px;
+.myplan-description {
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  color: #737272;
 }
-.hero-text-list
+
+/* Mindset Style */
+
+.mindset-section {
+  margin: 0 auto;
+  background-image: url("../images/watch.png"),linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+  border-radius: 8px;
+  background-repeat: no-repeat;
+  max-width: 1140px;
+  background-blend-mode:soft-light;
+  padding: 59px 0 0 64px;
+  background-size: cover;
+  height: 300px;
+}
+
+.mindset-section .section-title
 {
-   position: absolute;
-   left: -40px;
-}
-.hero-text-list li
-{
-    list-style: none;
-    
-}
-.hero-text-list li i{
-    margin-right: 10px;
-    color: rgba(15, 217, 15, 0.721);
+  color: #FFFFFF;
 }
