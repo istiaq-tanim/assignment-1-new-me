@@ -15,9 +15,7 @@
   border-radius: 5px;
 }
 
-.btn-primary:hover
-{
-
+.btn-primary:hover {
   cursor: pointer;
 }
 .section-title {
@@ -38,15 +36,15 @@
   background-size: cover;
   height: 100vh;
   position: relative;
-  margin-bottom: 100px;
+  margin-bottom: 130px;
 }
 /* banners styles */
 .banner {
   max-width: 525px;
   height: 228px;
   position: absolute;
-  right: 230px;
-  top: 200px;
+  right: 190px;
+  top: 220px;
   text-align: right;
 }
 .banner-title {
@@ -156,7 +154,7 @@
   margin-left: 230px;
   margin-right: 230px;
   padding-top: 130px;
-  height: 477px;;
+  height: 477px;
 }
 
 .future-title {
@@ -180,8 +178,7 @@
   font-size: 25px;
   margin-bottom: 30px;
 }
-.subscribe input[type="email"]
-{
+.subscribe input[type="email"] {
   border-radius: 5px;
   border: 2px solid #ffffff;
   padding: 15px;
@@ -189,10 +186,9 @@
   background: #151414;
   margin-bottom: 15px;
 }
-.subscribe input[type="submit"]
-{
+.subscribe input[type="submit"] {
   background: #005fac;
-  color: #FFFFFF;
+  color: #ffffff;
   padding: 18px;
   border: 0;
   font-size: 15px;
@@ -200,17 +196,13 @@
   position: absolute;
 }
 
-.subscribe input[type="email"]:hover
-{
+.subscribe input[type="email"]:hover {
   background: #ffffff;
   color: #151414;
   cursor: pointer;
-
 }
 
-.subscribe:hover input[type="submit"]
-{
+.subscribe:hover input[type="submit"] {
   cursor: pointer;
   padding: 25px;
- 
 }
